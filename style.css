@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7eff5;
+}
+.container{
+    text-align: center;
+}
+.color{
+    color: rgb(12, 83, 107);
+}
+.container h2{
+    background-color: #0a0a0b;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 60px;
+    margin: 25px;
+}
+.btn{
+    background-color:cornsilk;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+
+}
+.btn:hover{
+    background-color: #222;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
